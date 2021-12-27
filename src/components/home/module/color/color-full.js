@@ -66,7 +66,8 @@ export default class ModuleOne extends Component {
             </div>
             <div className="color-buttons-wrapper">
         <button onClick={ this.handleClick } className="color-button" style={backGroundColor}>{this.color}</button>
-        { this.state.displayColorPicker ? <div style={ popover }>
+
+        {this.state.displayColorPicker ? <div style={ popover }>
           <div style={ cover } onClick={ this.handleClose }/>
           <SketchPicker 
           color={ this.state.color }

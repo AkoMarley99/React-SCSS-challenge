@@ -6,7 +6,6 @@ export default class ModuleOne extends Component {
 
     this.state = {
       number: 0,
-      
     }
     this.incrementUp = this.incrementUp.bind(this);
     this.incrementDown = this.incrementDown.bind(this);
