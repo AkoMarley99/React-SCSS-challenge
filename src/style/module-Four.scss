@@ -1,0 +1,39 @@
+
+.font-wrapper {
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color:#fdffef ;
+    color: black;
+
+    min-width: 300px;
+    width: auto;
+    min-height: 48px;
+    height: auto;
+    
+    margin-bottom: 7px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.increment-input{
+    font-size: 15px;
+
+    width: 100px;
+    height: 40px;
+    margin-left: 7px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    outline: none;
+   
+}
+
+.font-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+.number-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 300px;
+    color: #061826;
+    background-color:#fdffef ;
+    font-weight: 1000;
+    
+    margin-bottom: 7px;
+    padding: 7px;
+    border-radius: 5px;
+}

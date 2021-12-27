@@ -1,0 +1,61 @@
+.module-five {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #3685b5;
+
+
+    width:  100vw;
+    padding: 20px;
+    border-bottom: 4px dotted black ;
+}
+.color-me{
+    align-self: center;
+}
+.color-me-wrapper{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 1000;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color:#fdffef ;
+    color: black;
+
+
+    width: 300px;
+
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+.color-buttons-wrapper{
+    display: flex;
+
+}
+.color-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+.colorInput{
+    font-size: 15px;
+    text-align: center;
+
+    width: 100px;
+    height: 40px;
+    margin-left: 7px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    outline: none;
+
+    background-color: #C7E8F3;
+}
